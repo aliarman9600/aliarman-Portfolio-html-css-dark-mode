@@ -818,8 +818,20 @@ h3.my-profession {
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
+        margin-bottom: 70px;
     }
 
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: -210px;
+    }
+
+    .home .home-img img {
+        margin: -10px;
+    }
 
 }
 
