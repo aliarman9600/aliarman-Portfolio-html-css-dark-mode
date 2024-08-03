@@ -820,16 +820,16 @@ h3.my-profession {
         max-width: 100%;
         margin-bottom: 70px;
     }
-/* 
+
     .home-img::before {
         left: -7px;
     }
 
     .home-img::after {
-        right: -210px;
+        right: -207px;
     }
 
-    .home .home-img img {
+    /* .home .home-img img {
         margin: -10px;
     } */
 
@@ -848,5 +848,17 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+/* 
+    .home .home-img img {
+        margin: -10px;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: -207px;
+    } */
 
 }
