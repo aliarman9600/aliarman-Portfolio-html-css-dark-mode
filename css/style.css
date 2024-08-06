@@ -769,7 +769,7 @@ h3.my-profession {
     padding: 0 50px;
 }
 
-@media (max-width:1199px) {
+@media (max-width: 1199px) {
 
     .section .container {
         padding-top: 70px;
@@ -777,6 +777,10 @@ h3.my-profession {
 
     .aside {
         left: -270px;
+    }
+
+    .main-content {
+        padding-left: 0;
     }
 
     .aside.open {
@@ -821,18 +825,9 @@ h3.my-profession {
         margin-bottom: 70px;
     }
 
-    .home-img::before {
-        left: -7px;
+    .home .home-img {
+        display: none;
     }
-
-    .home-img::after {
-        right: -207px;
-    }
-
-    /* .home .home-img img {
-        margin: -10px;
-    } */
-
 }
 
 @media (max-width:767px) {
@@ -841,16 +836,12 @@ h3.my-profession {
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item,
-    .about .about-content .education,
     .about .about-content .experience,
+    .about .about-content .education,
     .about .about-content .skills,
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
-    }
-/* 
-    .home .home-img img {
-        margin: -10px;
     }
 
     .home-img::before {
@@ -859,6 +850,111 @@ h3.my-profession {
 
     .home-img::after {
         right: -207px;
-    } */
+    }
+
+    .home .home-img {
+        display: block;
+        max-width: none;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: 0;
+    }
+
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: -207px;
+    }
+
+    .home .home-img {
+        display: block;
+        max-width: none;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: 0;
+    }
+
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 70px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: -207px;
+    }
+
+    .home .home-img {
+        display: block;
+        max-width: none;
+    }
+
+    .home-img::before {
+        left: -7px;
+    }
+
+    .home-img::after {
+        right: 0;
+    }
+
+    .home .home-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 70px;
+    }
 
 }
