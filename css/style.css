@@ -875,7 +875,7 @@ h3.my-profession {
 
 @media (max-width:576px) {
 
-    .contact .contact-form .col-6,
+    /* .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item,
@@ -885,7 +885,7 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
-    }
+    } */
 
     .home-img::before {
         left: -7px;
@@ -918,7 +918,7 @@ h3.my-profession {
 
 @media (max-width:450px) {
 
-    .contact .contact-form .col-6,
+    /* .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item,
@@ -928,7 +928,7 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
-    }
+    } */
 
     .home-img::before {
         left: -7px;
